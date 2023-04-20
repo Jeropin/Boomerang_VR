@@ -23,7 +23,7 @@ public class RecallRang : MonoBehaviour
     void Update()
     {
 
-        Debug.Log(recallRang.action.ReadValue<float>());
+        // Debug.Log(recallRang.action.ReadValue<float>());
         if(recallRang.action.ReadValue<float>() == 1){
             Recall();
         }
@@ -34,7 +34,7 @@ public class RecallRang : MonoBehaviour
 
     void Recall()
     {
-        Debug.Log("I have been recalled");
+        // Debug.Log("I have been recalled");
         rang.transform.position = Vector3.MoveTowards(rang.transform.position, transformHand.position, 20 * Time.deltaTime);
         rang.GetComponent<Rigidbody>().isKinematic = true;
     }
