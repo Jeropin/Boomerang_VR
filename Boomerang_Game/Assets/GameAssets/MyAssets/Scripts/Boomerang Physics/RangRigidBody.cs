@@ -16,10 +16,11 @@ public class RangRigidBody : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        body.velocity += new Vector3(0.1f, 0.1f, 0);
+        // body.velocity += new Vector3(0.1f, 0.1f, 0);
         // x++;
+        // body.AddForce(new Vector3(5f, 3f, 0f));
 
-        Debug.Log(body.velocity);
+        // Debug.Log(body.velocity
         // body.velocity = Vector3.left;
         // body.velocity = Vector3.left;
     }
