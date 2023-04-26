@@ -4,24 +4,20 @@ using UnityEngine;
 
 public class RayCast : MonoBehaviour
 {
-    // Start is called before the first frame update
-    Ray ray;
-    RaycastHit hit;
-    void Start()
-    {
-        // ray = new Ray(transform.position, transform.forward * 500);
-    }
+    public Ray ray;
 
-    public Vector3 CheckForColliders()
-    {
-        return(hit.point);
+    public Vector3 fireRay(){
+        ray = new Ray(transform.position, transform.forward * 500);
+        // Debug.Log(ray);
+        RaycastHit hitData;
+        // Debug.Log(hit.point);
+        Physics.Raycast(ray, out hitData);
+        // Debug.Log(hitData.point);
+        return hitData.point;
     }
-    // Update is called once per frame
     void Update()
     {
-        ray = new Ray(transform.position, transform.forward * 500);
+        // ray = new Ray(transform.position, transform.forward * 500);
         Debug.DrawRay(transform.position, transform.forward * 500, Color.red);
-        
-        // CheckForColliders();
     }
 }

@@ -8,12 +8,19 @@ public class RangPhysics : MonoBehaviour
     public Transform A;
     public Vector3 lastPosition;
     public Transform B;
-    public Vector3 rayCastHit;
     public Transform Control;
+    public RayCast rayCast;
 
-    void Start(){
-        rayCastHit = rang.GetComponent<RayCast>().CheckForColliders();
-        Debug.Log(rayCastHit);
+    Vector3 rayPosition;
+
+    // void Update(){
+    //     // rayPosition = rayCast.fireRay();
+    //     Debug.Log(rayCast.fireRay());
+    //     // rayCast.fireRay();
+    // }
+
+    public void setRayPosition(){
+        rayPosition = rayCast.fireRay();
     }
     public void setLastPosition(){
         lastPosition = A.position;
@@ -21,7 +28,7 @@ public class RangPhysics : MonoBehaviour
 
     public Vector3 evaulate(float t){
         Vector3 ac = Vector3.Lerp(lastPosition, Control.position, t);
-        Vector3 cb = Vector3.Lerp(Control.position, B.position, t);
+        Vector3 cb = Vector3.Lerp(Control.position, rayPosition, t);
         return Vector3.Lerp(ac, cb, t);
     }
 
