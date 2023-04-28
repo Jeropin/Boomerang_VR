@@ -8,6 +8,7 @@ public class ControlPointsActive : MonoBehaviour
     public Transform hand;
     public Transform A;
     public Transform B;
+    public Transform Control;
     public RayCast rayCast;
     Vector3 rayPosition;
 
@@ -17,5 +18,10 @@ public class ControlPointsActive : MonoBehaviour
         rayPosition = rayCast.fireRay();
         A.position = hand.position;
         B.position = rayPosition;
+        Control.position = B.position - A.position;
+
+        // Debug.Log("A Pos: " + A.position);
+        // Debug.Log("B Pos: " + B.position);
+        // Debug.Log("Control Pos: " + Control.position);
     }
 }

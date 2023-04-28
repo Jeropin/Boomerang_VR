@@ -9,6 +9,10 @@ public class RangPhysics : MonoBehaviour
     public Transform B;
     public Transform Control;
 
+    private LineRenderer lineRend;
+
+    private Vector3[] positions;
+
     public Vector3 evaulate(float t){
 
         // Using last known position of ray and hand
@@ -17,6 +21,18 @@ public class RangPhysics : MonoBehaviour
         Vector3 ac = Vector3.Lerp(A.position, Control.position, t);
         Vector3 cb = Vector3.Lerp(Control.position, B.position, t);
         return Vector3.Lerp(ac, cb, t);
+    }
+
+    private void OnDrawLine(){
+        if(A == null || B == null || Control == null){
+            return;
+        }
+
+        for(int i = 0; i < 20; i++){
+            positions[i] = evaulate(i / 20f);
+        }
+
+        lineRend.SetPositions(positions);
     }
 
     private void OnDrawGizmos(){

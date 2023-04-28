@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class RecallRang : MonoBehaviour
 {
     public InputActionProperty recallRang;
+    public RangFollow rangFollow;
     public Transform transformHand;
     public Transform transformRang;
     public GameObject rang;
@@ -13,11 +14,6 @@ public class RecallRang : MonoBehaviour
     // private Transform transformHand = Handheld
     // private Transform transformRang = rang.GetComponent<Transform>();
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -26,9 +22,14 @@ public class RecallRang : MonoBehaviour
         // Debug.Log(recallRang.action.ReadValue<float>());
         if(recallRang.action.ReadValue<float>() == 1){
             Recall();
+
+            if(rangFollow.enabled){
+                rangFollow.toggleScript();
+            }
         }
         else{
-             rang.GetComponent<Rigidbody>().isKinematic = false;
+
+            rang.GetComponent<Rigidbody>().isKinematic = false;
         }
     }
 
