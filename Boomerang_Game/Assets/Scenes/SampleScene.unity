@@ -528,7 +528,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh25704
+  m_Name: pb_Mesh25690
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13015,6 +13015,7 @@ GameObject:
   - component: {fileID: 1748077530}
   - component: {fileID: 1748077538}
   - component: {fileID: 1748077539}
+  - component: {fileID: 1748077540}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -13411,6 +13412,32 @@ MonoBehaviour:
   transformRang: {fileID: 1113071458}
   rang: {fileID: 1113071452}
   speed: 10
+--- !u!114 &1748077540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748077528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0767f4e1a4f5b5b43a585c7f7ff1fecd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityProperty:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Velocity Property
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e789d75b-e5ac-4e40-a18a-04b6b4ee844d
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -6762182760124511678, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  Magnitude: 0
 --- !u!1 &1887508800
 GameObject:
   m_ObjectHideFlags: 0
@@ -48133,6 +48160,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2309852906766017070, guid: eac9376d8649a48478f94d4814e8a3fc,
         type: 3}
+      propertyPath: m_MovementType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2309852906766017070, guid: eac9376d8649a48478f94d4814e8a3fc,
+        type: 3}
+      propertyPath: m_ThrowOnDetach
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2309852906766017070, guid: eac9376d8649a48478f94d4814e8a3fc,
+        type: 3}
+      propertyPath: m_VelocityScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2309852906766017070, guid: eac9376d8649a48478f94d4814e8a3fc,
+        type: 3}
+      propertyPath: m_SmoothPosition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2309852906766017070, guid: eac9376d8649a48478f94d4814e8a3fc,
+        type: 3}
+      propertyPath: m_SmoothRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2309852906766017070, guid: eac9376d8649a48478f94d4814e8a3fc,
+        type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1617280674}
@@ -48188,9 +48240,19 @@ PrefabInstance:
       objectReference: {fileID: 192842920}
     - target: {fileID: 6423238032366182969, guid: eac9376d8649a48478f94d4814e8a3fc,
         type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6423238032366182969, guid: eac9376d8649a48478f94d4814e8a3fc,
+        type: 3}
       propertyPath: setReturn
       value: 
       objectReference: {fileID: 192842925}
+    - target: {fileID: 6423238032366182969, guid: eac9376d8649a48478f94d4814e8a3fc,
+        type: 3}
+      propertyPath: controllerVelocity
+      value: 
+      objectReference: {fileID: 1748077540}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eac9376d8649a48478f94d4814e8a3fc, type: 3}
 --- !u!1001 &4229131516547781188
