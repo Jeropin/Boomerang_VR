@@ -15,7 +15,7 @@ public class ControllerVelocity : MonoBehaviour
         Velocity = velocityProperty.action.ReadValue<Vector3>();
         // Debug.Log(Velocity.x);
         Magnitude = Mathf.Sqrt(Mathf.Pow(Velocity.x, 2) + Mathf.Pow(Velocity.y, 2) + Mathf.Pow(Velocity.z, 2));
-        Debug.Log("Magnitude from hand: " + Magnitude);
+        // Debug.Log("Magnitude from hand: " + Magnitude);
         // Debug.Log(Mathf.Sqrt(Mathf.Pow(Velocity.x, 2) + Mathf.Pow(Velocity.y, 2) + Mathf.Pow(Velocity.z, 2)));
     }
 }
