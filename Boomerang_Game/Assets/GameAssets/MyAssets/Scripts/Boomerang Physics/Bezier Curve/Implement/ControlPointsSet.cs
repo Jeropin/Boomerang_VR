@@ -2,25 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Curving backwards
 public class ControlPointsSet : MonoBehaviour
 {
 
     public Transform A;
     public Transform B;
-    public RayCast rayCast;
-    public Vector3 lastPosition;
-    Vector3 rayPosition;
-    public void setRayPosition(){
-        rayPosition = rayCast.fireRay();
-    }
+    public Transform Control;
 
-    public void setLastPosition(){
-        lastPosition = A.position;
-    }
-
+    // void Start()
+    // {
+    //     Control.position = new Vector3(Control.position.x * -1, Control.position.y, Control.position.z);
+    // }
     // Update is called once per frame
     void Update()
     {
-        
+        Control.position = new Vector3(Control.position.x * -1, Control.position.y, Control.position.z);
     }
 }

@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Boomerang Object following the curve created
 public class RangFollow : MonoBehaviour
 {
     public RangPhysics curve;
+    public ControlPointsSet setReturn;
     public float speed;
     private float sampleTime;
     void Start(){
@@ -24,7 +26,7 @@ public class RangFollow : MonoBehaviour
         
         // Debug.Log(curve.evaulate(sampleTime + 0.001f));
 
-        Debug.Log(sampleTime);
+        // Debug.Log(sampleTime);
         if(sampleTime >= 1f){
             toggleScript();
         }

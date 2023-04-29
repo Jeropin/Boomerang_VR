@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Cast a ray from obbject
 public class RayCast : MonoBehaviour
 {
     public Ray ray;
@@ -15,6 +16,7 @@ public class RayCast : MonoBehaviour
         // Debug.Log(hitData.point);
         return hitData.point;
     }
+
     void Update()
     {
         // ray = new Ray(transform.position, transform.forward * 500);
