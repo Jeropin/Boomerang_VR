@@ -28,8 +28,12 @@ public class RecallRang : MonoBehaviour
             }
         }
         else{
-
-            rang.GetComponent<Rigidbody>().isKinematic = false;
+            Rigidbody rigidbody = rang.GetComponent<Rigidbody>();
+            rigidbody.isKinematic = false;
+            // Add force to rigid body going towards the direction of the hand
+            // rigidbody.AddForce(transformHand.position);
+            // rang.GetComponent<Rigidbody>().isKinematic = false;
+            
         }
     }
 

@@ -278,6 +278,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "PrimaryButtonPressed",
+                    "type": "Value",
+                    "id": "fffa85f7-05d2-4520-a43f-a9d9a10e14ab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -366,6 +375,17 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "Generic XR Controller",
                     "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c02e7ce-2ae0-4307-8838-72ec340eaa8c",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButtonPressed",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1509,6 +1529,54 @@
                     "processors": "",
                     "groups": "",
                     "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Velocity",
+            "id": "9fb06ccb-f83e-4867-a7a5-9b488ed88580",
+            "actions": [
+                {
+                    "name": "LeftVelocity",
+                    "type": "Value",
+                    "id": "b949bfa3-575a-4380-9076-26f492ade25c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightVelocity",
+                    "type": "Value",
+                    "id": "581126cf-9048-45ac-b8a6-98431bb79c81",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "614fc045-712e-4bd8-9414-8b416d4ce4a6",
+                    "path": "<OculusTouchController>{LeftHand}/devicePose/velocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0852bf25-6a2b-4ffc-80c9-55e208a30080",
+                    "path": "<OculusTouchController>{RightHand}/devicePose/velocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightVelocity",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

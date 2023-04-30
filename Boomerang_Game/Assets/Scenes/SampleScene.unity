@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.59937435, g: 0.5997503, b: 0.5994879, a: 1}
+  m_IndirectSpecularColor: {r: 0.59937465, g: 0.5997507, b: 0.59948814, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1542,6 +1542,7 @@ GameObject:
   - component: {fileID: 1617280674}
   - component: {fileID: 1617280675}
   - component: {fileID: 1617280677}
+  - component: {fileID: 1617280678}
   m_Layer: 0
   m_Name: XR Interaction Manager
   m_TagString: Untagged
@@ -1604,6 +1605,47 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1617280678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617280673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a8fe7eb0105c04c9b6e62f03b94df1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rHand: {fileID: 1748077536}
+  lHand: {fileID: 2048150212}
+  rVelocityProperty:
+    m_UseReference: 1
+    m_Action:
+      m_Name: R Velocity Property
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 281f9267-2727-41a8-8756-c005509f5a0d
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -6541134726374613205, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  lVelocityProperty:
+    m_UseReference: 1
+    m_Action:
+      m_Name: L Velocity Property
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: fd83b664-bbc5-4e0c-b24e-97d00d683583
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 4371397326602488271, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  Magnitude: 0
 --- !u!1 &1748077528
 GameObject:
   m_ObjectHideFlags: 0
@@ -36177,6 +36219,7 @@ GameObject:
   - component: {fileID: 2048150212}
   - component: {fileID: 2048150211}
   - component: {fileID: 2048150206}
+  - component: {fileID: 2048150213}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -36499,6 +36542,36 @@ MonoBehaviour:
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
   m_AllowHoverHapticsWhileSelecting: 1
+--- !u!114 &2048150213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048150204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ac3eb4bf1676b4aa001c34624b796d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recallRang:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Recall Rang
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 079a261e-ff7f-42fc-a82f-34b1285a12b3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7933646028719450365, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  rangFollow: {fileID: 8731866210911526730}
+  transformHand: {fileID: 2048150205}
+  transformRang: {fileID: 8731866210911526717}
+  rang: {fileID: 8731866210911526710}
+  speed: 10
 --- !u!1 &2064111720
 GameObject:
   m_ObjectHideFlags: 0
@@ -37084,4 +37157,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   curve: {fileID: 192842920}
+  checkHand: {fileID: 1617280678}
   speed: 1
