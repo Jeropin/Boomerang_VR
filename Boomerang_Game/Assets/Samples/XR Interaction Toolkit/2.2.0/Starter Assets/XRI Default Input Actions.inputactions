@@ -209,12 +209,12 @@
             "actions": [
                 {
                     "name": "Select",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "33754c03-48ec-46ef-9bc6-22ed6bfdd8e8",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Select Value",
@@ -278,15 +278,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "PrimaryButtonPressed",
-                    "type": "Button",
-                    "id": "6176424d-d429-44ec-8e5e-db0cc0b8128a",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -375,17 +366,6 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "Generic XR Controller",
                     "action": "Translate Anchor",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "92d16b19-7f6f-4626-883f-82213ea4c597",
-                    "path": "<XRController>{LeftHand}/primaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "PrimaryButtonPressed",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1533,6 +1513,7 @@
                     "isPartOfComposite": false
                 }
             ]
+<<<<<<< HEAD
         },
         {
             "name": "Velocity",
@@ -1581,6 +1562,8 @@
                     "isPartOfComposite": false
                 }
             ]
+=======
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
         }
     ],
     "controlSchemes": [

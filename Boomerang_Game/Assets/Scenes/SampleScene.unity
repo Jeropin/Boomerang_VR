@@ -528,7 +528,11 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: pb_Mesh25666
+=======
+  m_Name: pb_Mesh25704
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -902,7 +906,6 @@ GameObject:
   - component: {fileID: 1748077535}
   - component: {fileID: 1748077530}
   - component: {fileID: 1748077539}
-  - component: {fileID: 1748077540}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -1263,6 +1266,7 @@ MonoBehaviour:
   transformRang: {fileID: 1113071458}
   rang: {fileID: 1113071452}
   speed: 10
+<<<<<<< HEAD
 --- !u!114 &1748077540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1289,6 +1293,8 @@ MonoBehaviour:
     m_Reference: {fileID: -6762182760124511678, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   Magnitude: 0
+=======
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
 --- !u!1 &1887508800
 GameObject:
   m_ObjectHideFlags: 0
@@ -36286,6 +36292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2309852906766017070, guid: eac9376d8649a48478f94d4814e8a3fc,
         type: 3}
+<<<<<<< HEAD
       propertyPath: m_MovementType
       value: 2
       objectReference: {fileID: 0}
@@ -36311,6 +36318,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2309852906766017070, guid: eac9376d8649a48478f94d4814e8a3fc,
         type: 3}
+=======
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1617280674}
@@ -36366,19 +36375,9 @@ PrefabInstance:
       objectReference: {fileID: 192842920}
     - target: {fileID: 6423238032366182969, guid: eac9376d8649a48478f94d4814e8a3fc,
         type: 3}
-      propertyPath: speed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6423238032366182969, guid: eac9376d8649a48478f94d4814e8a3fc,
-        type: 3}
       propertyPath: setReturn
       value: 
       objectReference: {fileID: 192842925}
-    - target: {fileID: 6423238032366182969, guid: eac9376d8649a48478f94d4814e8a3fc,
-        type: 3}
-      propertyPath: controllerVelocity
-      value: 
-      objectReference: {fileID: 1748077540}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eac9376d8649a48478f94d4814e8a3fc, type: 3}
 --- !u!1001 &4229131516547781188

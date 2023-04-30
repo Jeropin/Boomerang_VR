@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Hierarchy
+=======
+  m_Title: Inspector
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
   m_RootView: {fileID: 10}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -41,7 +45,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 892
     y: 0
+<<<<<<< HEAD
     width: 595
+=======
+    width: 592
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -73,7 +81,11 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 88
+=======
+  controlID: 135
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,7 +101,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 970
+    x: 967
     y: 0
     width: 517
     height: 386
@@ -119,12 +131,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 561
+<<<<<<< HEAD
     width: 1487
+=======
+    width: 1484
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     height: 386
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 91
+=======
+  controlID: 138
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +169,11 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 89
+=======
+  controlID: 136
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,12 +189,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1487
     y: 0
     width: 433
+=======
+    x: 1484
+    y: 0
+    width: 436
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -195,10 +225,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 473
+=======
+    width: 264
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     height: 561
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -214,23 +248,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 970
+    width: 967
     height: 386
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 20}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 20}
   - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,12 +355,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1487
+=======
+    width: 1484
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     height: 947
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 90
+=======
+  controlID: 137
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -347,12 +389,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1487
+=======
+    width: 1484
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     height: 561
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 153
+=======
+  controlID: 197
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -368,9 +418,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 473
     y: 0
     width: 419
+=======
+    x: 264
+    y: 0
+    width: 628
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -506,7 +562,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 970
+    x: 967
     y: 634
     width: 515
     height: 365
@@ -537,7 +593,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 634
-    width: 969
+    width: 966
     height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -568,10 +624,17 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 175}
     m_SelectedIDs: a6650000
     m_LastClickedID: 26022
     m_ExpandedIDs: 00000000a2650000a4650000a6650000a8650000aa650000ac650000ae650000b0650000fa65000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 44660000
+    m_LastClickedID: 26180
+    m_ExpandedIDs: 00000000a0650000a2650000a4650000a6650000a8650000aa650000ac650000ae6500000466000042660000446600005a66000000ca9a3bffffff7f
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -599,7 +662,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000a2650000a4650000a6650000a8650000aa650000ac650000ae650000b0650000
+=======
+    m_ExpandedIDs: 00000000a0650000a2650000a4650000a6650000a8650000aa650000ac650000ae650000
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -624,9 +691,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 801f0000
+    m_LastClickedInstanceID: 8064
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000469000030640000aa640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -676,9 +743,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1487
     y: 73
     width: 432
+=======
+    x: 1484
+    y: 73
+    width: 435
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -720,7 +793,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
+<<<<<<< HEAD
     width: 472
+=======
+    width: 263
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -729,9 +806,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 14640000
       m_LastClickedID: 25620
       m_ExpandedIDs: 0efbffff2cfbfffffa6300001864000020640000
+=======
+      m_SelectedIDs: 58640000
+      m_LastClickedID: 25688
+      m_ExpandedIDs: 2cfbffff0a6400003a6400004264000096640000
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -776,9 +859,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 473
     y: 73
     width: 417
+=======
+    x: 264
+    y: 73
+    width: 626
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1069,7 +1158,11 @@ MonoBehaviour:
   m_Size:
     m_Target: 0.28916407
     speed: 2
+<<<<<<< HEAD
     m_Value: 0.28916407
+=======
+    m_Value: 6.810556
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1117,7 +1210,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 892
     y: 73
+<<<<<<< HEAD
     width: 593
+=======
+    width: 590
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1129,7 +1226,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 593, y: 519}
+=======
+  m_TargetSize: {x: 590, y: 519}
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1144,8 +1245,13 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -296.5
     m_HBaseRangeMax: 296.5
+=======
+    m_HBaseRangeMin: -295
+    m_HBaseRangeMax: 295
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     m_VBaseRangeMin: -259.5
     m_VBaseRangeMax: 259.5
     m_HAllowExceedBaseRangeMin: 1
@@ -1165,16 +1271,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 593
       height: 519
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 296.5, y: 259.5}
+=======
+      width: 590
+      height: 519
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 295, y: 259.5}
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -296.5
       y: -259.5
       width: 593
@@ -1182,6 +1296,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 593, y: 540}
+=======
+      x: -295
+      y: -259.5
+      width: 590
+      height: 519
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 590, y: 540}
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

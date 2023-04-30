@@ -7,7 +7,6 @@ public class RangFollow : MonoBehaviour
 {
     public RangPhysics curve;
     public ControlPointsSet setReturn;
-    public ControllerVelocity controllerVelocity;
     public float speed;
     private float sampleTime;
     private bool isMagnitude = true;
@@ -42,4 +41,8 @@ public class RangFollow : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> parent of f24625d (feat: Trying to add Dynamic Throwing Speed)
