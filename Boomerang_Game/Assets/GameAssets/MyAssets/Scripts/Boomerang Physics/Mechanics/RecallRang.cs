@@ -29,10 +29,10 @@ public class RecallRang : MonoBehaviour
         }
         else{
             Rigidbody rigidbody = rang.GetComponent<Rigidbody>();
-            rigidbody.isKinematic = false;
+            // rigidbody.isKinematic = false;
             // Add force to rigid body going towards the direction of the hand
             // rigidbody.AddForce(transformHand.position);
-            // rang.GetComponent<Rigidbody>().isKinematic = false;
+            rang.GetComponent<Rigidbody>().isKinematic = false;
             
         }
     }

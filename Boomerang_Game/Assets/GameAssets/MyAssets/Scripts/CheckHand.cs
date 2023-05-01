@@ -35,7 +35,7 @@ public class CheckHand : MonoBehaviour
 
         // Debug.Log(Velocity);
         Magnitude = Mathf.Sqrt(Mathf.Pow(Velocity.x, 2) + Mathf.Pow(Velocity.y, 2) + Mathf.Pow(Velocity.z, 2));
-        Debug.Log(Magnitude);
+        // Debug.Log(Magnitude);?
         
         if(Magnitude >= 3f){
             Magnitude = 3;
